@@ -1,21 +1,37 @@
-h1 {
-    color:orange;
+*{
+    margin: 0px;
+    padding: 0px;
 }
 
 img {
     width: 400px;
 }
+h1 {
+    color:coral;
+}
 
 #thirdDiv {
-    width: 500px;
     height: 600px;
-    background-color:darkturquoise;
+    width: 400px;
+
+    background-color: aqua;
 
     padding: 50px;
-    border: 15px solid blue;
+    border: 15px solid black;
+
+    
 }
 
 #spanId {
     font-size: 18px;
     margin: 50px;
+
+}
+
+div {
+    background-color: darkkhaki;
+    padding: 5px;
+    margin: 5px;
+
+    text-align: center;
 }
