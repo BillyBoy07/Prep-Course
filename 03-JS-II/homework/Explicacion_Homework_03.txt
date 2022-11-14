@@ -1,0 +1,59 @@
+
+Explicaciones de conceptos correspondiente al Test 03-JSII.
+
+
+
+--> FOR.
+
+SINTAXIS SEGUN JS.
+
+    for (<variable_contadora>=<valor_inicial>; <condición> ; <paso_variable_contadora>) {
+        < codigo >
+    }
+
+<variable_contadora>
+    Variable necesaria para el control del ciclo.
+
+<valor_inicial>
+    Valor con el cuál comenzará el ciclo.
+
+<condición>
+    Evaluación para continuar en el ciclo.
+
+<paso_variable_contadora>
+    Esta expresión en necesaria para que, sume o reste, según sea el caso, para la finalización del ciclo.
+
+
+DESCRIPCION:
+    For es el nombre de una instrucción / órden / comando que lo que hace es crear un bucle / ciclo que se repetirá
+una determinada cantidad de veces.
+    
+    Por ejemplo, si tendríamos que escribir números del 0 al 100 deberiamos escribir, en nuestro código, 
+una sentencia 100 veces, y eso es escribir mucho y cansador porque se repite lo mismo unas 100 veces.
+
+    Para evitar tener que hacer eso 100 veces, lo podríamos hacer en menor cantidad de veces, en una sóla.
+
+    Siguiendo al ejemplo...
+
+    //Mostrar por pantalla los primeros 100 números.
+
+    imprimir_en_pantalla(1);
+    imprimir_en_pantalla(2);
+    imprimir_en_pantalla(3);
+    imprimir_en_pantalla(4);
+
+    ...y así continuar hasta llegar al 100!
+    Cansador no?. Bueno, con el ciclo FOR, se haría así...
+
+    for (contador=0; contador <= 100; contador++){
+        imprimir_en_pantalla(contador);
+    }
+
+
+--> OPERADORES LOGICOS &&, ||, !
+
+    Estos operadores sirven para hacer comparaciones lógicas entre cosas, objetos, variables, etc.
+    Son un aliado importante a la hora de programar. Estos son:
+
+Operador AND // && - (Y)
+
