@@ -13,8 +13,8 @@ const {
 
 describe('deObjetoAmatriz(objeto)', function() {
   it('should return an array, where each element represents a key-value pair in the form of an array.', function() {
-    expect(deObjetoAmatriz({ x: 1, y: 2 })).toEqual([["x" , 1],["y" , 2]]);
-    expect(deObjetoAmatriz({ x: 10, y: 25 })).toEqual([["x" , 10],["y" , 25]]);
+    expect(deObjetoAmatriz({ x: 1, y: 2 })).toEqual([['x' , 1],['y' , 2]]);
+    expect(deObjetoAmatriz({ x: 10, y: 25 })).toEqual([['x' , 10],['y' , 25]]);
   });
 });
 
